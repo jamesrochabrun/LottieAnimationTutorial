@@ -93,7 +93,7 @@
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="knh-vO-0p9">
                                 <rect key="frame" x="0.0" y="487" width="375" height="180"/>
-                                <color key="backgroundColor" red="0.41176470590000003" green="0.94117647059999998" blue="0.68235294120000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.0039215686274509803" green="0.81960784313725488" blue="0.75686274509803919" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="180" id="giC-4Z-0gZ"/>
                                 </constraints>
@@ -120,7 +120,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="YdT-RM-ZZw" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="BpQ-ih-AYd">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BpQ-ih-AYd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

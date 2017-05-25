@@ -13,11 +13,11 @@
 		7B3E48A71ED3C4F200613189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B3E48A61ED3C4F200613189 /* Assets.xcassets */; };
 		7B3E48AA1ED3C4F200613189 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B3E48A81ED3C4F200613189 /* LaunchScreen.storyboard */; };
 		7B3E48B61ED3D44700613189 /* Animation2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3E48B51ED3D44700613189 /* Animation2VC.swift */; };
+		7B843E731ED74E6600A95FC5 /* tutorial.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B843E721ED74E6600A95FC5 /* tutorial.json */; };
 		7B9C80F71ED64E6C002025B7 /* buttonOn.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C80F51ED64E6C002025B7 /* buttonOn.json */; };
 		7B9C80F81ED64E6C002025B7 /* buttonOff.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C80F61ED64E6C002025B7 /* buttonOff.json */; };
 		7B9C80FE1ED65BF4002025B7 /* ball.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C80FD1ED65BF4002025B7 /* ball.json */; };
 		7B9C81011ED679BA002025B7 /* Animation3VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9C81001ED679BA002025B7 /* Animation3VC.swift */; };
-		7B9C81031ED6A964002025B7 /* tutorial.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B9C81021ED6A964002025B7 /* tutorial.json */; };
 		9D83C43B06F57A62F9B2A123 /* Pods_LottieAnimate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 131D77FE77A6053B571B15B5 /* Pods_LottieAnimate.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,11 +31,11 @@
 		7B3E48A91ED3C4F200613189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B3E48AB1ED3C4F200613189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B3E48B51ED3D44700613189 /* Animation2VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation2VC.swift; sourceTree = "<group>"; };
+		7B843E721ED74E6600A95FC5 /* tutorial.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tutorial.json; sourceTree = "<group>"; };
 		7B9C80F51ED64E6C002025B7 /* buttonOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = buttonOn.json; sourceTree = "<group>"; };
 		7B9C80F61ED64E6C002025B7 /* buttonOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = buttonOff.json; sourceTree = "<group>"; };
 		7B9C80FD1ED65BF4002025B7 /* ball.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ball.json; sourceTree = "<group>"; };
 		7B9C81001ED679BA002025B7 /* Animation3VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation3VC.swift; sourceTree = "<group>"; };
-		7B9C81021ED6A964002025B7 /* tutorial.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tutorial.json; sourceTree = "<group>"; };
 		AC3B25BF92E5175AB0CA4C7B /* Pods-LottieAnimate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieAnimate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LottieAnimate/Pods-LottieAnimate.debug.xcconfig"; sourceTree = "<group>"; };
 		B89A123F1A8C223386FF41EB /* Pods-LottieAnimate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieAnimate.release.xcconfig"; path = "Pods/Target Support Files/Pods-LottieAnimate/Pods-LottieAnimate.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,7 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				7B9C81001ED679BA002025B7 /* Animation3VC.swift */,
-				7B9C81021ED6A964002025B7 /* tutorial.json */,
+				7B843E721ED74E6600A95FC5 /* tutorial.json */,
 			);
 			name = Animation3;
 			sourceTree = "<group>";
@@ -198,7 +198,7 @@
 				7B3E48A71ED3C4F200613189 /* Assets.xcassets in Resources */,
 				7B9C80F81ED64E6C002025B7 /* buttonOff.json in Resources */,
 				7B9C80F71ED64E6C002025B7 /* buttonOn.json in Resources */,
-				7B9C81031ED6A964002025B7 /* tutorial.json in Resources */,
+				7B843E731ED74E6600A95FC5 /* tutorial.json in Resources */,
 				7B3E48A51ED3C4F200613189 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
