@@ -82,7 +82,7 @@
         <!--Animation 3-->
         <scene sceneID="BTL-m1-tgJ">
             <objects>
-                <viewController id="8hN-uK-bJ9" sceneMemberID="viewController">
+                <viewController id="8hN-uK-bJ9" customClass="Animation3VC" customModule="LottieAnimate" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GRD-B8-OcA"/>
                         <viewControllerLayoutGuide type="bottom" id="TlW-gG-O2m"/>
@@ -90,13 +90,30 @@
                     <view key="view" contentMode="scaleToFill" id="4bc-Ui-aD1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="knh-vO-0p9">
+                                <rect key="frame" x="0.0" y="487" width="375" height="180"/>
+                                <color key="backgroundColor" red="0.41176470590000003" green="0.94117647059999998" blue="0.68235294120000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="giC-4Z-0gZ"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="TlW-gG-O2m" firstAttribute="top" secondItem="knh-vO-0p9" secondAttribute="bottom" id="RBc-Zb-p0q"/>
+                            <constraint firstAttribute="trailing" secondItem="knh-vO-0p9" secondAttribute="trailing" id="Tlz-2M-Hlc"/>
+                            <constraint firstItem="knh-vO-0p9" firstAttribute="leading" secondItem="4bc-Ui-aD1" secondAttribute="leading" id="pbc-dw-qyz"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Animation 3" id="yZD-TE-ReP"/>
+                    <connections>
+                        <outlet property="tutorialScrollView" destination="knh-vO-0p9" id="NCN-hT-laV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="41f-59-rjY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2404" y="102"/>
+            <point key="canvasLocation" x="2404" y="101.19940029985008"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="YTd-ew-mjC">
